@@ -6,16 +6,31 @@ The result is a print-ready card system: vector source files, 300 DPI bleed PNGs
 
 ## Card Showcase
 
+<table>
+<tr>
+<td align="center"><strong>1 Peter</strong><br><img src="output/1_peter/full_bleed_png/1peter_card_001.png" width="150" alt="1 Peter card preview"></td>
+<td align="center"><strong>James</strong><br><img src="output/james/full_bleed_png/james_card_001.png" width="150" alt="James card preview"></td>
+<td align="center"><strong>Colossians</strong><br><img src="output/colossians/full_bleed_png/colossians_card_001.png" width="150" alt="Colossians card preview"></td>
+<td align="center"><strong>1 John</strong><br><img src="output/1_john/full_bleed_png/1john_card_001.png" width="150" alt="1 John card preview"></td>
+</tr>
+<tr>
+<td align="center"><strong>Sermon on the Mount</strong><br><img src="output/sermon_on_the_mount/full_bleed_png/sermon_on_the_mount_card_001.png" width="150" alt="Sermon on the Mount card preview"></td>
+<td align="center"><strong>Psalm 1</strong><br><img src="output/psalm_1/full_bleed_png/psalm_1_card_001.png" width="150" alt="Psalm 1 card preview"></td>
+<td align="center"><strong>Hebrews 11</strong><br><img src="output/hebrews_11/full_bleed_png/hebrews_11_card_001.png" width="150" alt="Hebrews 11 card preview"></td>
+<td align="center"><strong>Exodus 20</strong><br><img src="output/exodus_20/full_bleed_png/exodus_20_card_001.png" width="150" alt="Exodus 20 card preview"></td>
+</tr>
+</table>
+
 | Book or Passage | Cards | Accent | Gallery | Upload PNGs |
 |---|---:|---|---|---|
-| 1 Peter | 28 | Royal blue | [View gallery](output/1_peter/gallery.html) | [Open PNG folder](output/1_peter/full_bleed_png/) |
-| James | 25 | Oxblood | [View gallery](output/james/gallery.html) | [Open PNG folder](output/james/full_bleed_png/) |
-| Colossians | 23 | Olive | [View gallery](output/colossians/gallery.html) | [Open PNG folder](output/colossians/full_bleed_png/) |
-| 1 John | 26 | Brown | [View gallery](output/1_john/gallery.html) | [Open PNG folder](output/1_john/full_bleed_png/) |
-| Sermon on the Mount | 27 | Warm umber | [View gallery](output/sermon_on_the_mount/gallery.html) | [Open PNG folder](output/sermon_on_the_mount/full_bleed_png/) |
-| Psalm 1 | 2 | Blue gray | [View gallery](output/psalm_1/gallery.html) | [Open PNG folder](output/psalm_1/full_bleed_png/) |
-| Hebrews 11 | 11 | Brown gold | [View gallery](output/hebrews_11/gallery.html) | [Open PNG folder](output/hebrews_11/full_bleed_png/) |
-| Exodus 20 | 7 | Slate | [View gallery](output/exodus_20/gallery.html) | [Open PNG folder](output/exodus_20/full_bleed_png/) |
+| 1 Peter | 28 | Royal blue `#003399` | [View gallery](output/1_peter/gallery.html) | [Open PNG folder](output/1_peter/full_bleed_png/) |
+| James | 25 | Oxblood `#7A2E2E` | [View gallery](output/james/gallery.html) | [Open PNG folder](output/james/full_bleed_png/) |
+| Colossians | 23 | Olive `#556B2F` | [View gallery](output/colossians/gallery.html) | [Open PNG folder](output/colossians/full_bleed_png/) |
+| 1 John | 26 | Brown `#8B5E34` | [View gallery](output/1_john/gallery.html) | [Open PNG folder](output/1_john/full_bleed_png/) |
+| Sermon on the Mount | 27 | Warm umber `#6B4F2A` | [View gallery](output/sermon_on_the_mount/gallery.html) | [Open PNG folder](output/sermon_on_the_mount/full_bleed_png/) |
+| Psalm 1 | 2 | Blue gray `#4C6A7D` | [View gallery](output/psalm_1/gallery.html) | [Open PNG folder](output/psalm_1/full_bleed_png/) |
+| Hebrews 11 | 11 | Brown gold `#7B3F00` | [View gallery](output/hebrews_11/gallery.html) | [Open PNG folder](output/hebrews_11/full_bleed_png/) |
+| Exodus 20 | 7 | Slate `#4B5563` | [View gallery](output/exodus_20/gallery.html) | [Open PNG folder](output/exodus_20/full_bleed_png/) |
 
 ## Generate A Book
 
@@ -28,9 +43,24 @@ python svg_draft.py --book james
 
 python generate_csv.py --book sermon_on_the_mount
 python svg_draft.py --book sermon_on_the_mount
+
+python generate_csv.py --book colossians
+python svg_draft.py --book colossians
+
+python generate_csv.py --book 1john
+python svg_draft.py --book 1john
+
+python generate_csv.py --book psalm_1
+python svg_draft.py --book psalm_1
+
+python generate_csv.py --book hebrews_11
+python svg_draft.py --book hebrews_11
+
+python generate_csv.py --book exodus_20
+python svg_draft.py --book exodus_20
 ```
 
-Outputs are written to `output/1_peter/` and `output/james/`. Each book includes:
+Outputs are written to the book-named folder under `output/`. Each book includes:
 
 - `full_bleed_png/`: upload-ready PNGs named `{book}_card_{number}.png`
 - `gallery.html`: responsive cut-card gallery
