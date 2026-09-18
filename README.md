@@ -8,16 +8,16 @@ The result is a print-ready card system: vector source files, 300 DPI bleed PNGs
 
 <table>
 <tr>
-<td align="center"><strong>1 Peter</strong><br><img src="output/1_peter/full_bleed_png/1peter_card_001.png" width="150" alt="1 Peter card preview"></td>
-<td align="center"><strong>James</strong><br><img src="output/james/full_bleed_png/james_card_001.png" width="150" alt="James card preview"></td>
-<td align="center"><strong>Colossians</strong><br><img src="output/colossians/full_bleed_png/colossians_card_001.png" width="150" alt="Colossians card preview"></td>
-<td align="center"><strong>1 John</strong><br><img src="output/1_john/full_bleed_png/1john_card_001.png" width="150" alt="1 John card preview"></td>
+<td align="center"><strong>1 Peter</strong><br><a href="output/1_peter/gallery.html"><img src="output/1_peter/full_bleed_png/1peter_card_001.png" width="150" alt="1 Peter card preview"></a></td>
+<td align="center"><strong>James</strong><br><a href="output/james/gallery.html"><img src="output/james/full_bleed_png/james_card_001.png" width="150" alt="James card preview"></a></td>
+<td align="center"><strong>Colossians</strong><br><a href="output/colossians/gallery.html"><img src="output/colossians/full_bleed_png/colossians_card_001.png" width="150" alt="Colossians card preview"></a></td>
+<td align="center"><strong>1 John</strong><br><a href="output/1_john/gallery.html"><img src="output/1_john/full_bleed_png/1john_card_001.png" width="150" alt="1 John card preview"></a></td>
 </tr>
 <tr>
-<td align="center"><strong>Sermon on the Mount</strong><br><img src="output/sermon_on_the_mount/full_bleed_png/sermon_on_the_mount_card_001.png" width="150" alt="Sermon on the Mount card preview"></td>
-<td align="center"><strong>Psalm 1</strong><br><img src="output/psalm_1/full_bleed_png/psalm_1_card_001.png" width="150" alt="Psalm 1 card preview"></td>
-<td align="center"><strong>Hebrews 11</strong><br><img src="output/hebrews_11/full_bleed_png/hebrews_11_card_001.png" width="150" alt="Hebrews 11 card preview"></td>
-<td align="center"><strong>Exodus 20</strong><br><img src="output/exodus_20/full_bleed_png/exodus_20_card_001.png" width="150" alt="Exodus 20 card preview"></td>
+<td align="center"><strong>Sermon on the Mount</strong><br><a href="output/sermon_on_the_mount/gallery.html"><img src="output/sermon_on_the_mount/full_bleed_png/sermon_on_the_mount_card_001.png" width="150" alt="Sermon on the Mount card preview"></a></td>
+<td align="center"><strong>Psalm 1</strong><br><a href="output/psalm_1/gallery.html"><img src="output/psalm_1/full_bleed_png/psalm_1_card_001.png" width="150" alt="Psalm 1 card preview"></a></td>
+<td align="center"><strong>Hebrews 11</strong><br><a href="output/hebrews_11/gallery.html"><img src="output/hebrews_11/full_bleed_png/hebrews_11_card_001.png" width="150" alt="Hebrews 11 card preview"></a></td>
+<td align="center"><strong>Exodus 20</strong><br><a href="output/exodus_20/gallery.html"><img src="output/exodus_20/full_bleed_png/exodus_20_card_001.png" width="150" alt="Exodus 20 card preview"></a></td>
 </tr>
 </table>
 
