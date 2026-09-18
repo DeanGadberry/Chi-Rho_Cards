@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body {
+    font-family: system-ui, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    padding: 20px;
+    margin: 0;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .card-box {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    text-align: center;
+  }
+  h2 {
+    font-size: 16px;
+    color: #88b04b;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  svg {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #333;
+    border-radius: 4px;
+  }
+</style>
+</head>
+<body>
+  <h1 style="text-align: center; font-size: 20px; margin-bottom: 25px; color: #ffffff;">Reference Material: Card SVGs</h1>
+  <div class="container">
+    <div class="card-box">
+      <h2>0. Canonical Card Background (2.5" x 3.5")</h2>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 225 315" width="2.5in" height="3.5in">
+        <defs>
+          <clipPath id="card-clip-background">
+            <rect x="0" y="0" width="225" height="315" rx="12.5" ry="12.5" />
+          </clipPath>
+          <g id="chi-rho-symbol-background">
+            <line x1="-18" y1="-22" x2="18" y2="22" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+            <line x1="-18" y1="22" x2="18" y2="-22" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+            <line x1="-21" y1="-20" x2="-15" y2="-24" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+            <line x1="15" y1="24" x2="21" y2="20" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+            <line x1="-21" y1="20" x2="-15" y2="24" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+            <line x1="15" y1="-24" x2="21" y2="-20" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+            <line x1="0" y1="-32" x2="0" y2="28" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+            <line x1="-5" y1="28" x2="5" y2="28" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+            <path d="M 0,-32 C 14,-32 14,-10 0,-10" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+          </g>
+          <pattern id="chi-rho-tessellation-background" width="30" height="17.32" patternUnits="userSpaceOnUse" patternTransform="scale(1)">
+            <g opacity="0.04" transform="scale(0.25)">
+              <use href="#chi-rho-symbol-background" x="30" y="34.641016" />
+              <use href="#chi-rho-symbol-background" x="90" y="0" />
+              <use href="#chi-rho-symbol-background" x="90" y="69.282032" />
+              <use href="#chi-rho-symbol-background" x="-30" y="0" />
+              <use href="#chi-rho-symbol-background" x="-30" y="69.282032" />
+              <use href="#chi-rho-symbol-background" x="30" y="-34.641016" />
+              <use href="#chi-rho-symbol-background" x="30" y="103.923048" />
+            </g>
+          </pattern>
+        </defs>
+        <g clip-path="url(#card-clip-background)">
+          <rect width="225" height="315" fill="#FDFBF7" />
+          <rect width="225" height="315" fill="url(#chi-rho-tessellation-background)" />
+        </g>
+      </svg>
+    </div>
+    <div class="card-box">
+      <h2>1. Full Canvas with Bleed Area (2.75" x 3.75")</h2>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247.5 337.5" width="2.75in" height="3.75in">
+  <defs>
+    <!-- Embedded Font Imports -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap');
+
+      .header-title {
+        font-family: 'EB Garamond', serif;
+        font-size: 11px;
+        font-weight: 700;
+        fill: #003399;
+        letter-spacing: 1.5px;
+      }
+
+      .scripture-num {
+        font-family: 'EB Garamond', serif;
+        font-size: 7.5px;
+        font-weight: 700;
+        fill: #003399;
+      }
+
+      .scripture-text {
+        font-family: 'EB Garamond', serif;
+        font-size: 9.5px;
+        fill: #1A1A1A;
+      }
+
+      /* Unified Footer Styles */
+      .footer-text {
+        font-family: 'EB Garamond', serif;
+        font-size: 6px;
+        font-weight: 600;
+        fill: #666666;
+        letter-spacing: 0.8px;
+      }
+    </style>
+
+    <!-- Card Clip Path at Trim Line -->
+    <clipPath id="card-clip-1">
+      <rect x="11.25" y="11.25" width="225" height="315" rx="12.5" ry="12.5" />
+    </clipPath>
+
+    <!-- Right-Edge Orientation Gradient Bar (Royal Blue) -->
+    <linearGradient id="edge-gradient-1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#003399" stop-opacity="1.0" />
+      <stop offset="100%" stop-color="#003399" stop-opacity="0.0" />
+    </linearGradient>
+
+    <!-- Classical Chi-Rho Symbol Vector Definition -->
+    <g id="chi-rho-symbol-1">
+      <line x1="-18" y1="-22" x2="18" y2="22" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+      <line x1="-18" y1="22" x2="18" y2="-22" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+      <line x1="-21" y1="-20" x2="-15" y2="-24" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+      <line x1="15" y1="24" x2="21" y2="20" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+      <line x1="-21" y1="20" x2="-15" y2="24" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+      <line x1="15" y1="-24" x2="21" y2="-20" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+      <line x1="0" y1="-32" x2="0" y2="28" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+      <line x1="-5" y1="28" x2="5" y2="28" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+      <path d="M 0,-32 C 14,-32 14,-10 0,-10" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+
+    <!-- 6-Fold Hexagonal Grid Pattern -->
+    <pattern id="chi-rho-tessellation-1" width="30" height="17.32" patternUnits="userSpaceOnUse" patternTransform="scale(1)">
+      <g opacity="0.04" transform="scale(0.25)">
+        <use href="#chi-rho-symbol-1" x="30" y="34.641016" />
+        <use href="#chi-rho-symbol-1" x="90" y="0" />
+        <use href="#chi-rho-symbol-1" x="90" y="69.282032" />
+        <use href="#chi-rho-symbol-1" x="-30" y="0" />
+        <use href="#chi-rho-symbol-1" x="-30" y="69.282032" />
+        <use href="#chi-rho-symbol-1" x="30" y="-34.641016" />
+        <use href="#chi-rho-symbol-1" x="30" y="103.923048" />
+      </g>
+    </pattern>
+  </defs>
+
+  <!-- Full Canvas Background & Watermark -->
+  <rect width="247.5" height="337.5" fill="#FDFBF7" />
+  <rect width="247.5" height="337.5" fill="url(#chi-rho-tessellation-1)" />
+
+  <!-- Right-Edge Orientation Gradient Bar -->
+  <rect x="216.25" y="0" width="31.25" height="337.5" fill="url(#edge-gradient-1)" />
+
+  <!-- Card Trim & Content Area -->
+  <g transform="translate(11.25, 11.25)">
+    <text x="17" y="25" class="header-title">1 PETER</text>
+    <line x1="17" y1="30" x2="190" y2="30" stroke="#003399" stroke-width="0.5" opacity="0.4" />
+
+    <g class="scripture-text">
+      <text x="17" y="45" class="scripture-num">1</text>
+      <text x="27" y="45">
+        <tspan x="27" dy="0">Peter, an apostle of Jesus Christ, to the</tspan>
+        <tspan x="27" dy="11.5">strangers scattered throughout Pontus, Galatia,</tspan>
+        <tspan x="27" dy="11.5">Cappadocia, Asia, and Bithynia,</tspan>
+      </text>
+
+      <text x="17" y="80" class="scripture-num">2</text>
+      <text x="27" y="80">
+        <tspan x="27" dy="0">Elect according to the foreknowledge of God</tspan>
+        <tspan x="27" dy="11.5">the Father, through sanctification of the Spirit,</tspan>
+        <tspan x="27" dy="11.5">unto obedience and sprinkling of the blood of</tspan>
+        <tspan x="27" dy="11.5">Jesus Christ: Grace unto you, and peace, be</tspan>
+        <tspan x="27" dy="11.5">multiplied.</tspan>
+      </text>
+
+      <text x="17" y="138" class="scripture-num">3</text>
+      <text x="27" y="138">
+        <tspan x="27" dy="0">Blessed be the God and Father of our Lord</tspan>
+        <tspan x="27" dy="11.5">Jesus Christ, which according to his abundant</tspan>
+        <tspan x="27" dy="11.5">mercy hath begotten us again unto a lively hope</tspan>
+        <tspan x="27" dy="11.5">by the resurrection of Jesus Christ from the dead,</tspan>
+      </text>
+
+      <text x="17" y="184" class="scripture-num">4</text>
+      <text x="27" y="184">
+        <tspan x="27" dy="0">To an inheritance incorruptible, and undefiled,</tspan>
+        <tspan x="27" dy="11.5">and that fadeth not away, reserved in heaven</tspan>
+        <tspan x="27" dy="11.5">for you,</tspan>
+      </text>
+
+      <text x="17" y="219" class="scripture-num">5</text>
+      <text x="27" y="219">
+        <tspan x="27" dy="0">Who are kept by the power of God through faith</tspan>
+        <tspan x="27" dy="11.5">unto salvation ready to be revealed in the last</tspan>
+        <tspan x="27" dy="11.5">time.</tspan>
+      </text>
+    </g>
+
+    <line x1="17" y1="290" x2="190" y2="290" stroke="#1A1A1A" stroke-width="0.5" opacity="0.3" />
+    <text x="17" y="300" class="footer-text">CHI-RHO</text>
+    <text x="103.5" y="300" class="footer-text" text-anchor="middle">KJV</text>
+    <text x="190" y="300" class="footer-text" text-anchor="end">1 PETER 1</text>
+  </g>
+</svg>
+    </div>
+    <div class="card-box">
+      <h2>2. Trimmed Card View (2.5" x 3.5")</h2>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 225 315" width="2.5in" height="3.5in">
+  <defs>
+    <!-- Embedded Font Imports -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap');
+
+      .header-title {
+        font-family: 'EB Garamond', serif;
+        font-size: 11px;
+        font-weight: 700;
+        fill: #003399;
+        letter-spacing: 1.5px;
+      }
+
+      .scripture-num {
+        font-family: 'EB Garamond', serif;
+        font-size: 7.5px;
+        font-weight: 700;
+        fill: #003399;
+      }
+
+      .scripture-text {
+        font-family: 'EB Garamond', serif;
+        font-size: 9.5px;
+        fill: #1A1A1A;
+      }
+
+      /* Unified Footer Styles */
+      .footer-text {
+        font-family: 'EB Garamond', serif;
+        font-size: 6px;
+        font-weight: 600;
+        fill: #666666;
+        letter-spacing: 0.8px;
+      }
+    </style>
+
+    <!-- Card Clip Path -->
+    <clipPath id="card-clip-2">
+      <rect x="0" y="0" width="225" height="315" rx="12.5" ry="12.5" />
+    </clipPath>
+
+    <!-- Right-Edge Orientation Gradient Bar (Royal Blue) -->
+    <linearGradient id="edge-gradient-2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#003399" stop-opacity="1.0" />
+      <stop offset="100%" stop-color="#003399" stop-opacity="0.0" />
+    </linearGradient>
+
+    <!-- Classical Chi-Rho Symbol Vector Definition -->
+    <g id="chi-rho-symbol-2">
+      <line x1="-18" y1="-22" x2="18" y2="22" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+      <line x1="-18" y1="22" x2="18" y2="-22" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+      <line x1="-21" y1="-20" x2="-15" y2="-24" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+      <line x1="15" y1="24" x2="21" y2="20" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+      <line x1="-21" y1="20" x2="-15" y2="24" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+      <line x1="15" y1="-24" x2="21" y2="-20" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+      <line x1="0" y1="-32" x2="0" y2="28" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+      <line x1="-5" y1="28" x2="5" y2="28" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+      <path d="M 0,-32 C 14,-32 14,-10 0,-10" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+
+    <!-- 6-Fold Hexagonal Grid Pattern -->
+    <pattern id="chi-rho-tessellation-2" width="30" height="17.32" patternUnits="userSpaceOnUse" patternTransform="scale(1)">
+      <g opacity="0.04" transform="scale(0.25)">
+        <use href="#chi-rho-symbol-2" x="30" y="34.641016" />
+        <use href="#chi-rho-symbol-2" x="90" y="0" />
+        <use href="#chi-rho-symbol-2" x="90" y="69.282032" />
+        <use href="#chi-rho-symbol-2" x="-30" y="0" />
+        <use href="#chi-rho-symbol-2" x="-30" y="69.282032" />
+        <use href="#chi-rho-symbol-2" x="30" y="-34.641016" />
+        <use href="#chi-rho-symbol-2" x="30" y="103.923048" />
+      </g>
+    </pattern>
+  </defs>
+
+  <g clip-path="url(#card-clip-2)">
+    <rect width="225" height="315" fill="#FDFBF7" />
+    <rect width="225" height="315" fill="url(#chi-rho-tessellation-2)" />
+    <rect x="205" y="0" width="20" height="315" fill="url(#edge-gradient-2)" />
+
+    <text x="17" y="25" class="header-title">1 PETER</text>
+    <line x1="17" y1="30" x2="190" y2="30" stroke="#003399" stroke-width="0.5" opacity="0.4" />
+
+    <g class="scripture-text">
+      <text x="17" y="45" class="scripture-num">1</text>
+      <text x="27" y="45">
+        <tspan x="27" dy="0">Peter, an apostle of Jesus Christ, to the</tspan>
+        <tspan x="27" dy="11.5">strangers scattered throughout Pontus, Galatia,</tspan>
+        <tspan x="27" dy="11.5">Cappadocia, Asia, and Bithynia,</tspan>
+      </text>
+
+      <text x="17" y="80" class="scripture-num">2</text>
+      <text x="27" y="80">
+        <tspan x="27" dy="0">Elect according to the foreknowledge of God</tspan>
+        <tspan x="27" dy="11.5">the Father, through sanctification of the Spirit,</tspan>
+        <tspan x="27" dy="11.5">unto obedience and sprinkling of the blood of</tspan>
+        <tspan x="27" dy="11.5">Jesus Christ: Grace unto you, and peace, be</tspan>
+        <tspan x="27" dy="11.5">multiplied.</tspan>
+      </text>
+
+      <text x="17" y="138" class="scripture-num">3</text>
+      <text x="27" y="138">
+        <tspan x="27" dy="0">Blessed be the God and Father of our Lord</tspan>
+        <tspan x="27" dy="11.5">Jesus Christ, which according to his abundant</tspan>
+        <tspan x="27" dy="11.5">mercy hath begotten us again unto a lively hope</tspan>
+        <tspan x="27" dy="11.5">by the resurrection of Jesus Christ from the dead,</tspan>
+      </text>
+
+      <text x="17" y="184" class="scripture-num">4</text>
+      <text x="27" y="184">
+        <tspan x="27" dy="0">To an inheritance incorruptible, and undefiled,</tspan>
+        <tspan x="27" dy="11.5">and that fadeth not away, reserved in heaven</tspan>
+        <tspan x="27" dy="11.5">for you,</tspan>
+      </text>
+
+      <text x="17" y="219" class="scripture-num">5</text>
+      <text x="27" y="219">
+        <tspan x="27" dy="0">Who are kept by the power of God through faith</tspan>
+        <tspan x="27" dy="11.5">unto salvation ready to be revealed in the last</tspan>
+        <tspan x="27" dy="11.5">time.</tspan>
+      </text>
+    </g>
+
+    <line x1="17" y1="290" x2="190" y2="290" stroke="#1A1A1A" stroke-width="0.5" opacity="0.3" />
+    <text x="17" y="300" class="footer-text">CHI-RHO</text>
+    <text x="103.5" y="300" class="footer-text" text-anchor="middle">KJV</text>
+    <text x="190" y="300" class="footer-text" text-anchor="end">1 PETER 1</text>
+  </g>
+</svg>
+    </div>
+  </div>
+</body>
+</html>

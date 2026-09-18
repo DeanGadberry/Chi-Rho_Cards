@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      width: 825px;
+      height: 1125px;
+      background-color: #FDFBF7;
+      font-family: 'EB Garamond', serif;
+      position: relative;
+      overflow: hidden;
+    }
+
+    body.no-header .header-title { display: none; }
+    body.no-header .scripture-body { top: 43px; }
+    body.cut {
+      width: 750px;
+      height: 1050px;
+      border-radius: 42px;
+      overflow: hidden;
+    }
+
+    body.cut .card-container {
+      top: 0;
+      left: 0;
+    }
+
+    /* Tessellation Layer */
+    .tessellation-bg {
+      position: absolute;
+      top: 0; left: 0; width: 100%; height: 100%;
+      z-index: 1;
+    }
+
+    /* Orientation Accent Gradient Bar */
+    .edge-gradient {
+      position: absolute;
+      top: 0; width: 55px; height: 100%;
+      background: linear-gradient(to bottom, #003399 0%, rgba(0, 51, 153, 0) 100%);
+      z-index: 2;
+    }
+
+    .edge-gradient.right { right: 0; }
+    .edge-gradient.left { left: 0; }
+
+    /* Card Content Container */
+    .card-container {
+      position: absolute;
+      top: 37.5px; left: 37.5px; width: 750px; height: 1050px;
+      z-index: 3;
+    }
+
+    .central-block {
+      position: absolute;
+      left: 65px;
+      width: 620px;
+      height: 1050px;
+    }
+
+    .header-title {
+      position: absolute;
+      top: 43px;
+      left: 0;
+      width: 620px;
+      font-size: var(--foreground-size);
+      line-height: 1;
+      font-weight: 700;
+      color: #003399;
+      letter-spacing: 5px;
+      border-bottom: 1.5px solid rgba(0, 51, 153, 0.4);
+      padding-bottom: 16.667px;
+    }
+
+    .scripture-body {
+      position: absolute;
+      top: 112px;
+      left: 0;
+      width: 620px;
+    }
+
+    .verse-block {
+      display: flex;
+      align-items: baseline;
+      margin-bottom: 5px;
+      font-size: var(--foreground-size);
+      line-height: var(--line-height);
+      color: #1A1A1A;
+    }
+
+    .scripture-num {
+      font-size: calc(var(--foreground-size) * 0.79);
+      line-height: var(--line-height);
+      font-weight: 700;
+      color: #003399;
+      min-width: 33.333px;
+      flex-shrink: 0;
+    }
+
+    .verse-text { flex: 1; }
+
+    .footer-bar {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 39px;
+      border-top: 1px solid rgba(26, 26, 26, 0.3);
+      padding-top: 10px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      font-size: calc(var(--foreground-size) * 0.63);
+      line-height: 20px;
+      font-weight: 600;
+      color: #666666;
+      letter-spacing: 2px;
+    }
+
+    .footer-center { text-align: center; }
+    .footer-right { text-align: right; }
+  </style>
+</head>
+<body class="{{HEADER_CLASS}} {{FORM_CLASS}}" style="--foreground-size: {{FOREGROUND_SIZE}}px; --line-height: {{LINE_HEIGHT}}px;">
+  <svg class="tessellation-bg" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <g id="chi-rho-symbol">
+        <line x1="-18" y1="-22" x2="18" y2="22" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="-18" y1="22" x2="18" y2="-22" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="-21" y1="-20" x2="-15" y2="-24" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round"/>
+        <line x1="15" y1="24" x2="21" y2="20" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round"/>
+        <line x1="-21" y1="20" x2="-15" y2="24" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round"/>
+        <line x1="15" y1="-24" x2="21" y2="-20" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round"/>
+        <line x1="0" y1="-32" x2="0" y2="28" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M 0,-32 C 14,-32 14,-10 0,-10" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round"/>
+      </g>
+      <pattern id="chi-rho-tessellation" width="30" height="17.32" patternUnits="userSpaceOnUse" patternTransform="scale(1)">
+        <g opacity="0.04" transform="scale(0.25)">
+          <use href="#chi-rho-symbol" x="30" y="34.641016" />
+          <use href="#chi-rho-symbol" x="90" y="0" />
+          <use href="#chi-rho-symbol" x="90" y="69.282032" />
+          <use href="#chi-rho-symbol" x="-30" y="0" />
+          <use href="#chi-rho-symbol" x="-30" y="69.282032" />
+          <use href="#chi-rho-symbol" x="30" y="-34.641016" />
+          <use href="#chi-rho-symbol" x="30" y="103.923048" />
+        </g>
+      </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#chi-rho-tessellation)" />
+  </svg>
+
+  <div class="edge-gradient {{EDGE_SIDE}}"></div>
+
+  <div class="card-container">
+    <div class="central-block">
+      <div class="header-title">{{HEADER}}</div>
+      <div class="scripture-body">
+        {{TEXT}}
+      </div>
+      <div class="footer-bar">
+        <span>CHI-RHO</span>
+        <span class="footer-center">KJV</span>
+        <span class="footer-right">1 Peter {{CHAPTER}}</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
