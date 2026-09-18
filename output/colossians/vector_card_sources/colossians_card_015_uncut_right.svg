@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247.5 337.5" width="2.75in" height="3.75in">
+    <defs>
+        
+  <g id="chi-rho-symbol-background">
+    <line x1="-18" y1="-22" x2="18" y2="22" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="-18" y1="22" x2="18" y2="-22" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="-21" y1="-20" x2="-15" y2="-24" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+    <line x1="15" y1="24" x2="21" y2="20" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+    <line x1="-21" y1="20" x2="-15" y2="24" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+    <line x1="15" y1="-24" x2="21" y2="-20" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+    <line x1="0" y1="-32" x2="0" y2="28" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="-5" y1="28" x2="5" y2="28" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+    <path d="M 0,-32 C 14,-32 14,-10 0,-10" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+    <pattern id="chi-rho-tessellation-background" width="30" height="17.32" patternUnits="userSpaceOnUse" patternTransform="scale(1.15)">
+    <g opacity="0.03" transform="scale(0.25)">
+      <use href="#chi-rho-symbol-background" x="30" y="34.641016" />
+      <use href="#chi-rho-symbol-background" x="90" y="0" />
+      <use href="#chi-rho-symbol-background" x="90" y="69.282032" />
+      <use href="#chi-rho-symbol-background" x="-30" y="0" />
+      <use href="#chi-rho-symbol-background" x="-30" y="69.282032" />
+      <use href="#chi-rho-symbol-background" x="30" y="-34.641016" />
+      <use href="#chi-rho-symbol-background" x="30" y="103.923048" />
+    </g>
+  </pattern>
+
+    <style>
+    @font-face { font-family: "EB Garamond"; src: url("../../../assets/fonts/EBGaramond-Regular.ttf"); }
+    .header-title { font: 700 12px "EB Garamond", serif; letter-spacing: 1.5px; fill: #556B2F; }
+    .scripture-num { font: 700 8.25px "EB Garamond", serif; fill: #556B2F; }
+    .scripture-text { font: 11.0px "EB Garamond", serif; fill: #1A1A1A; }
+    .footer-text { font: 600 6.5px "EB Garamond", serif; letter-spacing: .8px; fill: #666; }
+    .header-rule { stroke: #556B2F; stroke-width: .5; opacity: .4; }
+      .footer-rule { stroke: #1A1A1A; stroke-width: .5; opacity: .3; }
+    </style>
+    <linearGradient id="edge-right-15" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#556B2F" />
+    <stop offset="100%" stop-color="#556B2F" stop-opacity="0" />
+    </linearGradient>
+        <clipPath id="trim-15"><rect x="0" y="0" width="225" height="315" rx="12.5" /></clipPath>
+  </defs>
+    <rect width="247.5" height="337.5" fill="#FDFBF7" />
+    <rect width="247.5" height="337.5" fill="url(#chi-rho-tessellation-background)" />
+    <rect x="220.625" y="0" width="26.875" height="337.5" fill="url(#edge-right-15)" />
+    <g transform="translate(11.25,11.25)" clip-path="url(#trim-15)">
+    <text x="17" y="25" class="header-title">Colossians 3:3-7</text><line x1="17" y1="30" x2="190" y2="30" class="header-rule" />
+    <text x="17" y="45.00" class="scripture-num">3</text><text x="31" y="45.00" class="scripture-text">For ye are dead, and your life is hid</text><text x="17" y="58.00" class="scripture-num"></text><text x="31" y="58.00" class="scripture-text">with Christ in God.</text><text x="17" y="73.00" class="scripture-num">4</text><text x="31" y="73.00" class="scripture-text">When Christ, who is our life, shall</text><text x="17" y="86.00" class="scripture-num"></text><text x="31" y="86.00" class="scripture-text">appear, then shall ye also appear with</text><text x="17" y="99.00" class="scripture-num"></text><text x="31" y="99.00" class="scripture-text">him in glory.</text><text x="17" y="114.00" class="scripture-num">5</text><text x="31" y="114.00" class="scripture-text">Mortify therefore your members</text><text x="17" y="127.00" class="scripture-num"></text><text x="31" y="127.00" class="scripture-text">which are upon the earth;</text><text x="17" y="140.00" class="scripture-num"></text><text x="31" y="140.00" class="scripture-text">fornication, uncleanness, inordinate</text><text x="17" y="153.00" class="scripture-num"></text><text x="31" y="153.00" class="scripture-text">affection, evil concupiscence, and</text><text x="17" y="166.00" class="scripture-num"></text><text x="31" y="166.00" class="scripture-text">covetousness, which is idolatry:</text><text x="17" y="181.00" class="scripture-num">6</text><text x="31" y="181.00" class="scripture-text">For which things&#x27; sake the wrath of</text><text x="17" y="194.00" class="scripture-num"></text><text x="31" y="194.00" class="scripture-text">God cometh on the children of</text><text x="17" y="207.00" class="scripture-num"></text><text x="31" y="207.00" class="scripture-text">disobedience:</text><text x="17" y="222.00" class="scripture-num">7</text><text x="31" y="222.00" class="scripture-text">In the which ye also walked some</text><text x="17" y="235.00" class="scripture-num"></text><text x="31" y="235.00" class="scripture-text">time, when ye lived in them.</text>
+    <line x1="17" y1="290" x2="190" y2="290" class="footer-rule" /><text x="17" y="300" class="footer-text">CHI-RHO</text><text x="103.5" y="300" text-anchor="middle" class="footer-text">KJV</text><text x="190" y="300" text-anchor="end" class="footer-text">8/12</text>
+  </g>
+</svg>

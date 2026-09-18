@@ -18,7 +18,18 @@ Outputs are written to `output/1_peter/` and `output/james/`. Each book includes
 - `gallery.html`: responsive cut-card gallery
 - `vector_card_sources/`: canonical `{book}_card_{number}` SVGs, previews, and derived cut PNGs
 
-Add future books in `src/book_config.py` with their API ID, chapter count, accent color, data path, and output path.
+Configured titles currently include:
+
+- `1peter`
+- `james`
+- `colossians`
+- `1john`
+- `sermon_on_the_mount`
+- `psalm_1`
+- `hebrews_11`
+- `exodus_20`
+
+Add future books or passages in `src/book_config.py` with their API ID, chapter span, reference name, accent color, data path, and output path.
 
 ## Validate
 

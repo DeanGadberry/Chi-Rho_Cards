@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247.5 337.5" width="2.75in" height="3.75in">
+    <defs>
+        
+  <g id="chi-rho-symbol-background">
+    <line x1="-18" y1="-22" x2="18" y2="22" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="-18" y1="22" x2="18" y2="-22" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="-21" y1="-20" x2="-15" y2="-24" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+    <line x1="15" y1="24" x2="21" y2="20" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+    <line x1="-21" y1="20" x2="-15" y2="24" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+    <line x1="15" y1="-24" x2="21" y2="-20" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+    <line x1="0" y1="-32" x2="0" y2="28" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="-5" y1="28" x2="5" y2="28" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+    <path d="M 0,-32 C 14,-32 14,-10 0,-10" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+    <pattern id="chi-rho-tessellation-background" width="30" height="17.32" patternUnits="userSpaceOnUse" patternTransform="scale(1.15)">
+    <g opacity="0.03" transform="scale(0.25)">
+      <use href="#chi-rho-symbol-background" x="30" y="34.641016" />
+      <use href="#chi-rho-symbol-background" x="90" y="0" />
+      <use href="#chi-rho-symbol-background" x="90" y="69.282032" />
+      <use href="#chi-rho-symbol-background" x="-30" y="0" />
+      <use href="#chi-rho-symbol-background" x="-30" y="69.282032" />
+      <use href="#chi-rho-symbol-background" x="30" y="-34.641016" />
+      <use href="#chi-rho-symbol-background" x="30" y="103.923048" />
+    </g>
+  </pattern>
+
+    <style>
+    @font-face { font-family: "EB Garamond"; src: url("../../../assets/fonts/EBGaramond-Regular.ttf"); }
+    .header-title { font: 700 12px "EB Garamond", serif; letter-spacing: 1.5px; fill: #8B5E34; }
+    .scripture-num { font: 700 8.25px "EB Garamond", serif; fill: #8B5E34; }
+    .scripture-text { font: 11.0px "EB Garamond", serif; fill: #1A1A1A; }
+    .footer-text { font: 600 6.5px "EB Garamond", serif; letter-spacing: .8px; fill: #666; }
+    .header-rule { stroke: #8B5E34; stroke-width: .5; opacity: .4; }
+      .footer-rule { stroke: #1A1A1A; stroke-width: .5; opacity: .3; }
+    </style>
+    <linearGradient id="edge-left-16" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#8B5E34" />
+    <stop offset="100%" stop-color="#8B5E34" stop-opacity="0" />
+    </linearGradient>
+        <clipPath id="trim-16"><rect x="0" y="0" width="225" height="315" rx="12.5" /></clipPath>
+  </defs>
+    <rect width="247.5" height="337.5" fill="#FDFBF7" />
+    <rect width="247.5" height="337.5" fill="url(#chi-rho-tessellation-background)" />
+    <rect x="0" y="0" width="26.875" height="337.5" fill="url(#edge-left-16)" />
+    <g transform="translate(26.875,11.25)" clip-path="url(#trim-16)">
+    <text x="17" y="25" class="header-title">1 John 3:21-24</text><line x1="17" y1="30" x2="190" y2="30" class="header-rule" />
+    <text x="17" y="45.00" class="scripture-num">21</text><text x="31" y="45.00" class="scripture-text">Beloved, if our heart condemn us</text><text x="17" y="58.00" class="scripture-num"></text><text x="31" y="58.00" class="scripture-text">not, then have we confidence toward</text><text x="17" y="71.00" class="scripture-num"></text><text x="31" y="71.00" class="scripture-text">God.</text><text x="17" y="86.00" class="scripture-num">22</text><text x="31" y="86.00" class="scripture-text">And whatsoever we ask, we receive</text><text x="17" y="99.00" class="scripture-num"></text><text x="31" y="99.00" class="scripture-text">of him, because we keep his</text><text x="17" y="112.00" class="scripture-num"></text><text x="31" y="112.00" class="scripture-text">commandments, and do those things</text><text x="17" y="125.00" class="scripture-num"></text><text x="31" y="125.00" class="scripture-text">that are pleasing in his sight.</text><text x="17" y="140.00" class="scripture-num">23</text><text x="31" y="140.00" class="scripture-text">And this is his commandment, That</text><text x="17" y="153.00" class="scripture-num"></text><text x="31" y="153.00" class="scripture-text">we should believe on the name of his</text><text x="17" y="166.00" class="scripture-num"></text><text x="31" y="166.00" class="scripture-text">Son Jesus Christ, and love one</text><text x="17" y="179.00" class="scripture-num"></text><text x="31" y="179.00" class="scripture-text">another, as he gave us</text><text x="17" y="192.00" class="scripture-num"></text><text x="31" y="192.00" class="scripture-text">commandment.</text><text x="17" y="207.00" class="scripture-num">24</text><text x="31" y="207.00" class="scripture-text">And he that keepeth his</text><text x="17" y="220.00" class="scripture-num"></text><text x="31" y="220.00" class="scripture-text">commandments dwelleth in him,</text><text x="17" y="233.00" class="scripture-num"></text><text x="31" y="233.00" class="scripture-text">and he in him. And hereby we know</text><text x="17" y="246.00" class="scripture-num"></text><text x="31" y="246.00" class="scripture-text">that he abideth in us, by the Spirit</text><text x="17" y="259.00" class="scripture-num"></text><text x="31" y="259.00" class="scripture-text">which he hath given us.</text>
+    <line x1="17" y1="290" x2="190" y2="290" class="footer-rule" /><text x="17" y="300" class="footer-text">8/13</text><text x="103.5" y="300" text-anchor="middle" class="footer-text">KJV</text><text x="190" y="300" text-anchor="end" class="footer-text">CHI-RHO</text>
+  </g>
+</svg>

@@ -272,7 +272,7 @@ def main(book_key):
         card_verses = [(number, text) for _, number, text in card_records]
         start_chapter, start_verse = card_records[0][:2]
         end_chapter, end_verse = card_records[-1][:2]
-        header = format_reference(book["display_name"], start_chapter, start_verse, end_chapter, end_verse)
+        header = format_reference(book["reference_name"], start_chapter, start_verse, end_chapter, end_verse)
         edge_side = "right" if card_number % 2 else "left"
         svg = card_svg(card_number, total_cards, header, card_verses, edge_side, "uncut", measure, book["accent"], font_href)
         file_prefix = f"{book_key}_card_{card_number:03d}"

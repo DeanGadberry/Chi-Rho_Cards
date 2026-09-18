@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 247.5 337.5" width="2.75in" height="3.75in">
+    <defs>
+        
+  <g id="chi-rho-symbol-background">
+    <line x1="-18" y1="-22" x2="18" y2="22" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="-18" y1="22" x2="18" y2="-22" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="-21" y1="-20" x2="-15" y2="-24" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+    <line x1="15" y1="24" x2="21" y2="20" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+    <line x1="-21" y1="20" x2="-15" y2="24" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+    <line x1="15" y1="-24" x2="21" y2="-20" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+    <line x1="0" y1="-32" x2="0" y2="28" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" />
+    <line x1="-5" y1="28" x2="5" y2="28" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+    <path d="M 0,-32 C 14,-32 14,-10 0,-10" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+    <pattern id="chi-rho-tessellation-background" width="30" height="17.32" patternUnits="userSpaceOnUse" patternTransform="scale(1.15)">
+    <g opacity="0.03" transform="scale(0.25)">
+      <use href="#chi-rho-symbol-background" x="30" y="34.641016" />
+      <use href="#chi-rho-symbol-background" x="90" y="0" />
+      <use href="#chi-rho-symbol-background" x="90" y="69.282032" />
+      <use href="#chi-rho-symbol-background" x="-30" y="0" />
+      <use href="#chi-rho-symbol-background" x="-30" y="69.282032" />
+      <use href="#chi-rho-symbol-background" x="30" y="-34.641016" />
+      <use href="#chi-rho-symbol-background" x="30" y="103.923048" />
+    </g>
+  </pattern>
+
+    <style>
+    @font-face { font-family: "EB Garamond"; src: url("../../../assets/fonts/EBGaramond-Regular.ttf"); }
+    .header-title { font: 700 12px "EB Garamond", serif; letter-spacing: 1.5px; fill: #4B5563; }
+    .scripture-num { font: 700 8.25px "EB Garamond", serif; fill: #4B5563; }
+    .scripture-text { font: 11.0px "EB Garamond", serif; fill: #1A1A1A; }
+    .footer-text { font: 600 6.5px "EB Garamond", serif; letter-spacing: .8px; fill: #666; }
+    .header-rule { stroke: #4B5563; stroke-width: .5; opacity: .4; }
+      .footer-rule { stroke: #1A1A1A; stroke-width: .5; opacity: .3; }
+    </style>
+    <linearGradient id="edge-right-7" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#4B5563" />
+    <stop offset="100%" stop-color="#4B5563" stop-opacity="0" />
+    </linearGradient>
+        <clipPath id="trim-7"><rect x="0" y="0" width="225" height="315" rx="12.5" /></clipPath>
+  </defs>
+    <rect width="247.5" height="337.5" fill="#FDFBF7" />
+    <rect width="247.5" height="337.5" fill="url(#chi-rho-tessellation-background)" />
+    <rect x="220.625" y="0" width="26.875" height="337.5" fill="url(#edge-right-7)" />
+    <g transform="translate(11.25,11.25)" clip-path="url(#trim-7)">
+    <text x="17" y="25" class="header-title">Exodus 20:24-26</text><line x1="17" y1="30" x2="190" y2="30" class="header-rule" />
+    <text x="17" y="45.00" class="scripture-num">24</text><text x="31" y="45.00" class="scripture-text">An altar of earth thou shalt make</text><text x="17" y="58.00" class="scripture-num"></text><text x="31" y="58.00" class="scripture-text">unto me, and shalt sacrifice thereon</text><text x="17" y="71.00" class="scripture-num"></text><text x="31" y="71.00" class="scripture-text">thy burnt offerings, and thy peace</text><text x="17" y="84.00" class="scripture-num"></text><text x="31" y="84.00" class="scripture-text">offerings, thy sheep, and thine oxen:</text><text x="17" y="97.00" class="scripture-num"></text><text x="31" y="97.00" class="scripture-text">in all places where I record my name</text><text x="17" y="110.00" class="scripture-num"></text><text x="31" y="110.00" class="scripture-text">I will come unto thee, and I will</text><text x="17" y="123.00" class="scripture-num"></text><text x="31" y="123.00" class="scripture-text">bless thee.</text><text x="17" y="138.00" class="scripture-num">25</text><text x="31" y="138.00" class="scripture-text">And if thou wilt make me an altar of</text><text x="17" y="151.00" class="scripture-num"></text><text x="31" y="151.00" class="scripture-text">stone, thou shalt not build it of</text><text x="17" y="164.00" class="scripture-num"></text><text x="31" y="164.00" class="scripture-text">hewn stone: for if thou lift up thy</text><text x="17" y="177.00" class="scripture-num"></text><text x="31" y="177.00" class="scripture-text">tool upon it, thou hast polluted it.</text><text x="17" y="192.00" class="scripture-num">26</text><text x="31" y="192.00" class="scripture-text">Neither shalt thou go up by steps</text><text x="17" y="205.00" class="scripture-num"></text><text x="31" y="205.00" class="scripture-text">unto mine altar, that thy nakedness</text><text x="17" y="218.00" class="scripture-num"></text><text x="31" y="218.00" class="scripture-text">be not discovered thereon.</text>
+    <line x1="17" y1="290" x2="190" y2="290" class="footer-rule" /><text x="17" y="300" class="footer-text">CHI-RHO</text><text x="103.5" y="300" text-anchor="middle" class="footer-text">KJV</text><text x="190" y="300" text-anchor="end" class="footer-text">4/4</text>
+  </g>
+</svg>

@@ -27,7 +27,7 @@ def clean_text(text):
 
 def fetch_book(book):
     all_verses = []
-    for ch in range(1, book["chapters"] + 1):
+    for ch in range(book["chapter_start"], book["chapter_end"] + 1):
         req = urllib.request.urlopen(
             f"https://bolls.life/get-text/KJV/{book['api_book_id']}/{ch}/"
         )
@@ -46,7 +46,7 @@ def build_csv(book_key):
     print(f"Fetching and thoroughly cleaning KJV text for {book['display_name']}...")
     raw_verses = fetch_book(book)
     rows = []
-    for chapter in range(1, book["chapters"] + 1):
+    for chapter in range(book["chapter_start"], book["chapter_end"] + 1):
         chunk = [verse for verse in raw_verses if verse["chapter"] == chapter]
         formatted_verses = []
         for verse in chunk:
